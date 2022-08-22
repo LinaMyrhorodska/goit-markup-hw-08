@@ -1,0 +1,36 @@
+:root {
+    /* fonts */
+    --main-font: "Roboto";
+    --secondary-font: "Raleway";
+
+    /* text colors */
+    --accent-txt-clr: #2196F3;
+    --black-txt-clr: #212121;
+    --white-txt-clr: #FFFFFF;
+    --contact-txt-clr: #757575;
+    --header-logo-clr: #000000;
+    --footer-mail-tel-clr: rgba(255, 255, 255, 0.6);
+    --grey-txt-clr: #757575;
+    --icon-clr: #AFB1B8;
+
+
+    /* Background colors */
+    --bg-dark-clr: #2F303A;
+    --bg-btn-clr: #F5F4FA;
+    --bg-wh-clr: #FFFFFF;
+    --bg-middle-clr: #E5E5E5;
+    --portfolio-border-clr: #EEEEEE;
+    --portfolio-header-border-clr: #ECECEC;
+    --bg-footer-icons: rgba(255, 255, 255, 0.1);
+    --bg-wwd-clr: rgba(47, 48, 58, 0.8);
+    --bg-overlay-clr: rgba(33, 150, 243, 0.9);
+    --bg-modal: rgba(0, 0, 0, 0.2);
+    --border-footer-sign: rgba(255, 255, 255, 0.3);
+
+    /* others */
+    --items: 9;
+    --indent: 30px;
+
+    /* animation */
+    --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

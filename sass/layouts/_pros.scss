@@ -1,0 +1,47 @@
+/* section our pros */
+
+.pros__list {
+    display: flex;
+    align-items: center;
+}
+
+.pros__icon-cover {
+    display: flex;
+    min-width: 270px;
+    min-height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-btn-clr);
+
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.pros__icon {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 70px;
+    height: 70px;
+}
+
+.pros__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.pros__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--black-txt-clr);
+
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+.pros__subtitle {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--grey-txt-clr);
+}

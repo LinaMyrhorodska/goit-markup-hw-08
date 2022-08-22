@@ -1,0 +1,58 @@
+.idea {
+    max-width: 1600px;
+    max-height: 600px;
+    margin: 0 auto;
+
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/idea-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    &__title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--white-txt-clr);
+        width: 696px;
+    
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+}
+
+.idea__btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white-txt-clr);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    background-color: var(--accent-txt-clr);
+    border-radius: 4px;
+    padding: 10px 32px 10px 32px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background-color var(--anim);
+
+    &:hover,
+    &:focus {
+            background-color: var(--accent-txt-clr);
+        }
+}
+
