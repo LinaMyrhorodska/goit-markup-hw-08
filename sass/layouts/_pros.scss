@@ -1,20 +1,46 @@
 /* section our pros */
+.pros {
+    @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
 
 .pros__list {
-    display: flex;
-    align-items: center;
+    --items: 1;
+
+    @media screen and (min-width: 768px) {
+    --items: 2;
+    }
+    
+    @media screen and (min-width: 1200px) {
+    --items: 4;
+    }
 }
 
 .pros__icon-cover {
     display: flex;
-    min-width: 270px;
-    min-height: 120px;
+    height: 120px;
     justify-content: center;
     align-items: center;
     background-color: var(--bg-btn-clr);
 
     margin-bottom: 30px;
     border-radius: 4px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+
 }
 
 .pros__icon {
@@ -25,8 +51,17 @@
     height: 70px;
 }
 
-.pros__item:not(:last-child) {
-    margin-right: 30px;
+
+.pros__title-cover {
+
+    @media screen and (min-width: 768px) {
+            width: 354px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+        }
+
 }
 
 .pros__title {
@@ -36,8 +71,15 @@
     text-transform: uppercase;
     color: var(--black-txt-clr);
 
-    width: 270px;
     margin-bottom: 10px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;    
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 270px;   
+    }
 }
 
 .pros__subtitle {

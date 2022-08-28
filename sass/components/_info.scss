@@ -1,0 +1,51 @@
+.footer__info-cover {
+    @media screen and (max-width: 1199px) {
+        min-width: 231px;
+        margin-bottom: 60px;
+    } 
+
+    @media screen and (min-width: 1200px) {
+        min-width: 231px;
+    }
+}
+
+.footer__info-address {
+    margin-top: 20px;
+}
+
+.footer__info-list {
+    font-style: normal;
+
+}
+
+.footer__info-item:not(:last-child) {
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 8px;
+    }
+
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 9px;
+    }
+}
+
+.footer__info-street {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white-txt-clr);
+}
+
+.footer__info-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--footer-mail-tel-clr);
+
+}
+
+.footer__info-tel {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--footer-mail-tel-clr);
+}

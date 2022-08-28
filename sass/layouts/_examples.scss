@@ -1,20 +1,27 @@
 /* section examples */
 
 .examples {
-    padding-bottom: 95px;
+    @media screen and (max-width: 1199px) {
+    display: none;
+    }
 
-    &__list {
-        display: flex;
-        }
+    @media screen and (min-width: 1200px) {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 94px;
+    }
+    
 }
 
+.examples__list {
+    @media screen and (min-width: 1200px) {
+        --items: 3;
+    
+    }
+}
 
 .examples__item {
     z-index: -1;
-
-    &:not(:last-child) {
-        margin-right: 30px;
-        }
 }
 
 .examples__img-wrap {

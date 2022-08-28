@@ -27,16 +27,49 @@
  /* buttons portfolio*/
 
  .buttons__list {
-     display: flex;
-     margin-bottom: 50px;
-     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        margin-bottom: 30px;
+        justify-content: center;
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+    
  }
+
+  .buttons__item {
+
+    @media screen and (min-width: 768px) {
+        margin-right: 8px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        &:not(:last-child) {
+        margin-right: 10px;
+        }
+    }
+  }
 
  .buttons__btn {
      transition: box-shadow var(--anim), color var(--anim), background-color var(--anim);
  }
 
- .buttons__item:not(:last-child) {
-     margin-right: 10px;
- }
+.buttons__btn.active {
+    @media screen and (max-width: 767px) {
+        background-color: var(--accent-txt-clr);
+        color: var(--white-txt-clr);
+    }
+    
+}
+
 

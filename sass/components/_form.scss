@@ -1,7 +1,20 @@
 .form {
     display: block;
+}
 
-    &__title {
+.form__title {
+
+    @media screen and (max-width: 1199px) {
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.50;
+        letter-spacing: 0.03em;
+        color: var(--black-txt-clr);
+        margin-bottom: 12px;
+    }
+
+    @media screen and (min-width: 1200px) {
         font-weight: 700;
         font-size: 20px;
         text-align: center;
@@ -9,9 +22,9 @@
         letter-spacing: 0.03em;
         color: var(--black-txt-clr);
         margin-bottom: 12px;
-        }
+    }
+    
 }
-
 
 
 .form__container {
@@ -127,16 +140,37 @@ textarea {
 }
 
 .form__text-agree {
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--contact-txt-clr);
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+            color: var(--contact-txt-clr);
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--contact-txt-clr);
+    }
+    
 }
 
 .form__text-terms {
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-decoration-line: underline;
-    color: var(--accent-txt-clr);
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+            text-decoration-line: underline;
+            color: var(--accent-txt-clr);
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-decoration-line: underline;
+        color: var(--accent-txt-clr);
+    }
+   
 }
 
 .form__btn {
