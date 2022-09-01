@@ -14,6 +14,7 @@
 .portfolio__list {
     display: flex;
     flex-wrap: wrap;
+    grid-column-gap: 30px;
 }
 
 .portfolio__item {

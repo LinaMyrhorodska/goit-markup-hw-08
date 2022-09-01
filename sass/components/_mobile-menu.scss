@@ -52,7 +52,7 @@
         overflow-y: auto;
 
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         padding: 48px 40px;
         display: flex;
         flex-direction: column;
@@ -89,7 +89,7 @@
         text-align: center;
         letter-spacing: 0.02em;
         
-        gap: 26px;
+        grid-row-gap: 26px;
         margin-bottom: auto;
         }
 
@@ -104,7 +104,7 @@
     text-align: center;
     letter-spacing: 0.02em;
 
-    gap: 32px;
+    grid-row-gap: 32px;
     margin-bottom: auto;
     }
 
@@ -170,7 +170,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 10px;
+    grid-column-gap: 10px;
 }
 
 .mobile-menu__socials-item:not(:last-child) .mobile-menu__socials-link {
