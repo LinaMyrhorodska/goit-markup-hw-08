@@ -3,7 +3,7 @@
 .card-set {
     display: flex;
     flex-wrap: wrap;
-    grid-row-gap: var(--indent);
+    gap: var(--indent);
 }
 
 .card-set__item  {
